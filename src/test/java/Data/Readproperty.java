@@ -12,7 +12,7 @@ import java.util.Properties;
 public  class Readproperty { 
 	 //to get path of the config file
 	public static Properties UserData = 
-			LoadProperties(System.getProperty(("user.dir")+"\\src\\test\\java\\com\\pixelogic\\configuration\\config.properties"));
+			LoadProperties(System.getProperty(("user.dir")+"\\src\\test\\java\\com\\vodefone\\configuration\\config.properties"));
 	
 	public static  Properties LoadProperties(String path) //method to load data from config.properities file
 	{
