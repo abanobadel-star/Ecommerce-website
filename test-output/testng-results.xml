@@ -1,79 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="6" total="12" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="53656" started-at="2021-01-26T20:27:03 EET" finished-at="2021-01-26T20:27:56 EET">
+  <suite name="Default suite" duration-ms="18532" started-at="2021-01-26T23:33:32 EET" finished-at="2021-01-26T23:33:51 EET">
     <groups>
     </groups>
-    <test name="Test" duration-ms="53656" started-at="2021-01-26T20:27:03 EET" finished-at="2021-01-26T20:27:56 EET">
-      <class name="com.vodefone.tests.LoginTest">
-        <test-method status="PASS" signature="LoginUser()[pri:3, instance:com.vodefone.tests.LoginTest@b7dd107]" name="LoginUser" duration-ms="8848" started-at="2021-01-26T20:27:27 EET" finished-at="2021-01-26T20:27:36 EET">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginUser -->
-        <test-method status="PASS" signature="takeScreenShotOnFailureAndClosebrowser(org.testng.ITestResult)[pri:0, instance:com.vodefone.tests.LoginTest@b7dd107]" name="takeScreenShotOnFailureAndClosebrowser" is-config="true" duration-ms="0" started-at="2021-01-26T20:27:36 EET" finished-at="2021-01-26T20:27:36 EET">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=LoginUser status=SUCCESS method=LoginTest.LoginUser()[pri:3, instance:com.vodefone.tests.LoginTest@b7dd107] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- takeScreenShotOnFailureAndClosebrowser -->
-      </class> <!-- com.vodefone.tests.LoginTest -->
-      <class name="com.vodefone.tests.ProductTest">
-        <test-method status="PASS" signature="add_blouse_to_cart()[pri:5, instance:com.vodefone.tests.ProductTest@52f759d7]" name="add_blouse_to_cart" duration-ms="3788" started-at="2021-01-26T20:27:39 EET" finished-at="2021-01-26T20:27:43 EET">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- add_blouse_to_cart -->
-        <test-method status="PASS" signature="takeScreenShotOnFailureAndClosebrowser(org.testng.ITestResult)[pri:0, instance:com.vodefone.tests.ProductTest@52f759d7]" name="takeScreenShotOnFailureAndClosebrowser" is-config="true" duration-ms="1" started-at="2021-01-26T20:27:43 EET" finished-at="2021-01-26T20:27:43 EET">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=add_blouse_to_cart status=SUCCESS method=ProductTest.add_blouse_to_cart()[pri:5, instance:com.vodefone.tests.ProductTest@52f759d7] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- takeScreenShotOnFailureAndClosebrowser -->
-        <test-method status="PASS" signature="payment_checkout()[pri:6, instance:com.vodefone.tests.ProductTest@52f759d7]" name="payment_checkout" duration-ms="13682" started-at="2021-01-26T20:27:43 EET" finished-at="2021-01-26T20:27:56 EET">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- payment_checkout -->
-        <test-method status="PASS" signature="takeScreenShotOnFailureAndClosebrowser(org.testng.ITestResult)[pri:0, instance:com.vodefone.tests.ProductTest@52f759d7]" name="takeScreenShotOnFailureAndClosebrowser" is-config="true" duration-ms="0" started-at="2021-01-26T20:27:56 EET" finished-at="2021-01-26T20:27:56 EET">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=payment_checkout status=SUCCESS method=ProductTest.payment_checkout()[pri:6, instance:com.vodefone.tests.ProductTest@52f759d7] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- takeScreenShotOnFailureAndClosebrowser -->
-      </class> <!-- com.vodefone.tests.ProductTest -->
-      <class name="com.vodefone.tests.ChooseproductTest">
-        <test-method status="PASS" signature="SelectBlouse()[pri:4, instance:com.vodefone.tests.ChooseproductTest@42eca56e]" name="SelectBlouse" duration-ms="3256" started-at="2021-01-26T20:27:36 EET" finished-at="2021-01-26T20:27:39 EET">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SelectBlouse -->
-        <test-method status="PASS" signature="takeScreenShotOnFailureAndClosebrowser(org.testng.ITestResult)[pri:0, instance:com.vodefone.tests.ChooseproductTest@42eca56e]" name="takeScreenShotOnFailureAndClosebrowser" is-config="true" duration-ms="1" started-at="2021-01-26T20:27:39 EET" finished-at="2021-01-26T20:27:39 EET">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=SelectBlouse status=SUCCESS method=ChooseproductTest.SelectBlouse()[pri:4, instance:com.vodefone.tests.ChooseproductTest@42eca56e] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- takeScreenShotOnFailureAndClosebrowser -->
-      </class> <!-- com.vodefone.tests.ChooseproductTest -->
+    <test name="Default test" duration-ms="18532" started-at="2021-01-26T23:33:32 EET" finished-at="2021-01-26T23:33:51 EET">
       <class name="com.vodefone.tests.RegisterationTest">
-        <test-method status="PASS" signature="startdriver(java.lang.String)[pri:0, instance:com.vodefone.tests.RegisterationTest@6950e31]" name="startdriver" is-config="true" duration-ms="30480" started-at="2021-01-26T20:26:32 EET" finished-at="2021-01-26T20:27:03 EET">
+        <test-method status="PASS" signature="startdriver(java.lang.String)[pri:0, instance:com.vodefone.tests.RegisterationTest@291ae]" name="startdriver" is-config="true" duration-ms="18023" started-at="2021-01-26T23:33:14 EET" finished-at="2021-01-26T23:33:32 EET">
           <params>
             <param index="0">
               <value>
@@ -84,22 +18,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startdriver -->
-        <test-method status="PASS" signature="Write_Email_to_Create_New_Account()[pri:1, instance:com.vodefone.tests.RegisterationTest@6950e31]" name="Write_Email_to_Create_New_Account" duration-ms="4482" started-at="2021-01-26T20:27:03 EET" finished-at="2021-01-26T20:27:07 EET">
+        <test-method status="PASS" signature="Write_Email_to_Create_New_Account()[pri:1, instance:com.vodefone.tests.RegisterationTest@291ae]" name="Write_Email_to_Create_New_Account" duration-ms="5285" started-at="2021-01-26T23:33:32 EET" finished-at="2021-01-26T23:33:37 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Write_Email_to_Create_New_Account -->
-        <test-method status="PASS" signature="takeScreenShotOnFailureAndClosebrowser(org.testng.ITestResult)[pri:0, instance:com.vodefone.tests.RegisterationTest@6950e31]" name="takeScreenShotOnFailureAndClosebrowser" is-config="true" duration-ms="1" started-at="2021-01-26T20:27:07 EET" finished-at="2021-01-26T20:27:07 EET">
+        <test-method status="PASS" signature="takeScreenShotOnFailureAndClosebrowser(org.testng.ITestResult)[pri:0, instance:com.vodefone.tests.RegisterationTest@291ae]" name="takeScreenShotOnFailureAndClosebrowser" is-config="true" duration-ms="2" started-at="2021-01-26T23:33:37 EET" finished-at="2021-01-26T23:33:37 EET">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Write_Email_to_Create_New_Account status=SUCCESS method=RegisterationTest.Write_Email_to_Create_New_Account()[pri:1, instance:com.vodefone.tests.RegisterationTest@6950e31] output={null}]]]>
+                <![CDATA[[TestResult name=Write_Email_to_Create_New_Account status=SUCCESS method=RegisterationTest.Write_Email_to_Create_New_Account()[pri:1, instance:com.vodefone.tests.RegisterationTest@291ae] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailureAndClosebrowser -->
-        <test-method status="PASS" signature="CreateNewAccount(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.vodefone.tests.RegisterationTest@6950e31]" name="CreateNewAccount" duration-ms="11241" started-at="2021-01-26T20:27:15 EET" data-provider="register" finished-at="2021-01-26T20:27:27 EET">
+        <test-method status="PASS" signature="CreateNewAccount(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.vodefone.tests.RegisterationTest@291ae]" name="CreateNewAccount" duration-ms="12390" started-at="2021-01-26T23:33:38 EET" data-provider="register" finished-at="2021-01-26T23:33:51 EET">
           <params>
             <param index="0">
               <value>
@@ -190,22 +124,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateNewAccount -->
-        <test-method status="PASS" signature="takeScreenShotOnFailureAndClosebrowser(org.testng.ITestResult)[pri:0, instance:com.vodefone.tests.RegisterationTest@6950e31]" name="takeScreenShotOnFailureAndClosebrowser" is-config="true" duration-ms="0" started-at="2021-01-26T20:27:27 EET" finished-at="2021-01-26T20:27:27 EET">
+        <test-method status="PASS" signature="takeScreenShotOnFailureAndClosebrowser(org.testng.ITestResult)[pri:0, instance:com.vodefone.tests.RegisterationTest@291ae]" name="takeScreenShotOnFailureAndClosebrowser" is-config="true" duration-ms="1" started-at="2021-01-26T23:33:51 EET" finished-at="2021-01-26T23:33:51 EET">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CreateNewAccount status=SUCCESS method=RegisterationTest.CreateNewAccount(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.vodefone.tests.RegisterationTest@6950e31] output={null}]]]>
+                <![CDATA[[TestResult name=CreateNewAccount status=SUCCESS method=RegisterationTest.CreateNewAccount(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.vodefone.tests.RegisterationTest@291ae] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailureAndClosebrowser -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.vodefone.tests.RegisterationTest@6950e31]" name="teardown" is-config="true" duration-ms="1" started-at="2021-01-26T20:27:56 EET" finished-at="2021-01-26T20:27:56 EET">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.vodefone.tests.RegisterationTest@291ae]" name="teardown" is-config="true" duration-ms="891" started-at="2021-01-26T23:33:51 EET" finished-at="2021-01-26T23:33:52 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.vodefone.tests.RegisterationTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

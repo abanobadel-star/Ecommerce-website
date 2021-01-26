@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.vodefone.tests.ProductTest">
+      <class name="com.vodefone.tests.RegisterationTest">
         <methods>
           <include name="startdriver"/>
           <include name="takeScreenShotOnFailureAndClosebrowser"/>
-          <include name="payment_checkout"/>
+          <include name="Write_Email_to_Create_New_Account"/>
+          <include name="teardown"/>
+          <include name="CreateNewAccount"/>
         </methods>
-      </class> <!-- com.vodefone.tests.ProductTest -->
+      </class> <!-- com.vodefone.tests.RegisterationTest -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

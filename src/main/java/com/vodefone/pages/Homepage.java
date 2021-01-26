@@ -12,9 +12,11 @@ public class Homepage extends PageBase {
 	@FindBy(linkText = "Sign in")
 	WebElement signinbutton;
 	
+	@FindBy(css="h3.page-subheading")
+	public WebElement successuserenteremail;
+	
 	public void openLoginPage() //method to open login page
 	{
-		//clickonbutton(signinbutton);
 		signinbutton.click();
 	}
 	

@@ -3,14 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.vodefone.tests.ProductTest">
+      <class name="com.vodefone.tests.RegisterationTest">
         <methods>
           <include name="startdriver"/>
           <include name="takeScreenShotOnFailureAndClosebrowser"/>
-          <include name="add_blouse_to_cart"/>
-          <include name="payment_checkout"/>
+          <include name="Write_Email_to_Create_New_Account"/>
+          <include name="teardown"/>
+          <include name="CreateNewAccount"/>
         </methods>
-      </class> <!-- com.vodefone.tests.ProductTest -->
+      </class> <!-- com.vodefone.tests.RegisterationTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

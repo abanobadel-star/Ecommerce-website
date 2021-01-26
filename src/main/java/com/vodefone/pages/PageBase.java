@@ -7,25 +7,24 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 
 public class PageBase {
-	
+
 	protected static WebDriver driver;
 	public Actions Action;
-  	public PageBase(WebDriver driver)  //constructor
-  	{
-  		PageFactory.initElements(driver, this);
-  	}
-  	
-  	public static void clickonbutton(WebElement button) //method to click on element
-  	{
-  		
-  		JavascriptExecutor js=((JavascriptExecutor)driver);
+
+	public PageBase(WebDriver driver)  //constructor
+	{
+		PageFactory.initElements(driver, this);
+	}
+
+	public static void clickonbutton(WebElement button) //method to click on element
+	{
+
+		JavascriptExecutor js=((JavascriptExecutor)driver);
 		js.executeScript("arguments[0].click();",button);
-		//button.click();
-  		
-  	}
-  	public static void setTextElementText(WebElement textElement, String value) //method to send text to element
-  	{
-  		textElement.sendKeys(value);
-  	}
+	}
+	public static void setTextElementText(WebElement textElement, String value) //method to send text to element
+	{
+		textElement.sendKeys(value);
+	}
 
 }

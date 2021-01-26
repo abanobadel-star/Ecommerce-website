@@ -7,8 +7,8 @@
     
       <class name="com.vodefone.tests.RegisterationTest"/>
       <class name="com.vodefone.tests.LoginTest"/>
-        <class name="com.vodefone.tests.ChooseproductTest"/>
-        <class name="com.vodefone.tests.ProductTest"/>
+      <class name="com.vodefone.tests.ChooseproductTest"/>
+      <class name="com.vodefone.tests.ProductTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

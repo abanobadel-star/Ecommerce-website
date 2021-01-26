@@ -20,6 +20,9 @@ public class BlouseProductPage extends PageBase {
 	@FindBy(xpath="//a[@title='Proceed to checkout']")
 	WebElement proceedtocheckoutbutton;
 	
+	@FindBy(css="span.ajax_cart_product_txt ")
+	public WebElement successmessageproductaddtocart;
+	
 	
 	public void add_product_to_cart()
 	{

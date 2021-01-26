@@ -11,6 +11,7 @@ public class Accountpage extends PageBase {
 		super(driver);
 		 Action =new Actions(driver);
 	}
+	
 	@FindBy(linkText ="Sign out")
     WebElement logoutbutton;
 	
@@ -19,6 +20,9 @@ public class Accountpage extends PageBase {
 	
 	@FindBy(linkText="Blouses")
 	WebElement blousestab;
+	
+	@FindBy(css="span.cat-name")
+	 public WebElement blouseshowinpage;
 	
 	public void chooseBlousesPage()
 	{

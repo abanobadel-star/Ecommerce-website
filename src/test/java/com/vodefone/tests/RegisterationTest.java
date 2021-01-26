@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import org.json.simple.parser.ParseException;
+import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -15,7 +16,6 @@ import com.vodefone.pages.Registerpage;
 
 import Data.ExcelReader;
 import Data.JsonDataReader;
-import junit.framework.Assert;
 
 
 public class RegisterationTest extends TestBase {
@@ -48,6 +48,7 @@ public class RegisterationTest extends TestBase {
 		homeobject.openLoginPage();
 		loginobject=new Loginpage(driver);
 		loginobject.send_email_to_create_new_account(jsonreader.email);
+		
 		
 	
 	}

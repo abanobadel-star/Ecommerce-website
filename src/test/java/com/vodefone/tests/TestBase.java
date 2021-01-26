@@ -78,7 +78,7 @@ public class TestBase  {   //this class is the base "parent" for all class test 
 	@AfterSuite
 	public void teardown()
 	{
-	//	driver.quit();
+		driver.quit();
 		
 	}
 	

@@ -24,6 +24,11 @@ public class ProductTest extends TestBase {
 	{
 		blouseobject=new BlouseProductPage(driver);
 		blouseobject.add_product_to_cart();
+		String ExpectedResult="Product";
+		String ActualResult=blouseobject.successmessageproductaddtocart.getText();
+		System.out.println(ActualResult);
+		Assert.assertEquals(ExpectedResult, ActualResult);
+		
 	}
 	
 	@Test(priority=6)
