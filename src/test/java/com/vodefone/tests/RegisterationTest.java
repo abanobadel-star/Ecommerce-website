@@ -39,26 +39,20 @@ public class RegisterationTest extends TestBase {
 
 	}
 	
-	@Test(priority=1) 
-	public void Write_Email_to_Create_New_Account() throws IOException, ParseException
-	{
-		JsonDataReader jsonreader = new JsonDataReader();
-        jsonreader.JsonReader();
-		homeobject =new Homepage(driver);
-		homeobject.openLoginPage();
-		loginobject=new Loginpage(driver);
-		loginobject.send_email_to_create_new_account(jsonreader.email);
-		
-		
-	
-	}
-	@Test(priority=2,dataProvider="register")
+
+	@Test(priority=1,dataProvider="register")
 	public void CreateNewAccount(String fname,String lname,String email,String passwordnum,String day,String month,String year,String firstnameaddress,String lastnameaddress,
 			String comapnyname,String address,String city,String state,String postal,String country,String phone,String alixaddress) throws IOException, ParseException
 	{
 
 		JsonDataReader jsonreader = new JsonDataReader();
         jsonreader.JsonReader();
+        
+        homeobject =new Homepage(driver);
+		homeobject.openLoginPage();
+		loginobject=new Loginpage(driver);
+		loginobject.send_email_to_create_new_account(jsonreader.email);
+		
 		registerobject=new Registerpage(driver);
 		registerobject.RegisterNewUser(fname, lname, jsonreader.email, jsonreader.password, day, month, year, firstnameaddress, lastnameaddress, comapnyname, address, city, state,  jsonreader.zipcode, country, jsonreader.mobile, alixaddress);
 		String ExpectedResult="http://automationpractice.com/index.php?controller=my-account";

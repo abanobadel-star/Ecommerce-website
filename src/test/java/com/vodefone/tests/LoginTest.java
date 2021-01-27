@@ -20,7 +20,7 @@ public class LoginTest extends TestBase {
 	Homepage homeobject;
 	Loginpage loginobject;
 	
-	@Test(priority=3)
+	@Test(priority=2)
 	public void LoginUser() throws IOException, ParseException
 	{
 		JsonDataReader jsonreader = new JsonDataReader();

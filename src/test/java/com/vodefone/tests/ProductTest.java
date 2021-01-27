@@ -19,7 +19,7 @@ public class ProductTest extends TestBase {
 	BlouseProductPage blouseobject;
 	Processcheckoutpage processobject;
 	
-	@Test(priority=5)
+	@Test(priority=4)
 	public void add_blouse_to_cart()
 	{
 		blouseobject=new BlouseProductPage(driver);
@@ -31,7 +31,7 @@ public class ProductTest extends TestBase {
 		
 	}
 	
-	@Test(priority=6)
+	@Test(priority=5)
 
 	public void payment_checkout()
 	{
